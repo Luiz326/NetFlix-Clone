@@ -30,6 +30,54 @@
     }
 }
 
+@media screen and (max-width:380px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+        font-size: 11px;
+        
+    }
+    header .logo{
+        color: var(--vermelho);
+        font-family: 'Arial Black';
+        font-size: 20px;
+        margin-left: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    header nav a{
+        text-decoration: none;
+        color: #aaa;
+        margin-right: 5px;
+    }
+
+    .botao{
+        margin-bottom: 50%;   
+        width: 80px;
+        height: 60px;
+        padding: 9px 10px;
+        margin-right: 13px;
+        font-size: 9px;
+        ;
+    }
+
+    .filme-principal{
+        margin-top: 20%;
+        height: 150px;
+    }
+
+    .filme-principal .title{
+        margin-top: 60%;
+        font-size: 11px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .filme-principal .descricao{
+        
+        font-size: 8px;
+    }
+}
+
 @media screen and (min-width:1000px){
     
     .descricao{
